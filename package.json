@@ -1,0 +1,21 @@
+{
+  "name": "webhook",
+  "version": "1.0.0",
+  "description": "Webhook da api",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Megabot API",
+  "license": "ISC",
+  "devDependencies": {
+    "body-parse": "^0.1.0",
+    "express": "^4.17.1",
+    "ngrok": "^3.2.7",
+    "socket.io": "^2.3.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "nodemon": "^2.0.20"
+  }
+}
